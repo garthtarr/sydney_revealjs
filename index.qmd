@@ -1,0 +1,46 @@
+---
+title: "Template"
+format: 
+  revealjs:
+    title: "DATA2002"
+    author: "Garth Tarr"
+    institute: "The University of Sydney"
+    fig-format: retina
+    # embed-resources: true
+    toc: true
+    toc-depth: 1
+    number-sections: false
+    toc-title: "In this lecture"
+    theme: [default, "assets/sydney.scss", "assets/sydney_slides.scss"]
+    code-line-numbers: false
+    slide-number: c
+    scrollable: false
+    pdf-max-pages-per-slide: 1
+    # don't add each slide to browser history
+    history: false
+    html-math-method: mathjax
+    # self-contained-math: true
+execute:
+  echo: true
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+

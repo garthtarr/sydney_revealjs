@@ -1,0 +1,76 @@
+
+/*-- scss:defaults --*/
+
+
+
+/*-- scss:rules --*/
+
+
+
+.white-title {
+    color: white !important;
+}
+
+.reveal .quarto-title-block .quarto-title-authors {
+    display: flex;
+    justify-content: left;
+}
+
+.reveal .quarto-title-block .quarto-title-authors .quarto-title-author {
+    padding-left: 0em;
+    padding-right: 0.5em;
+}
+
+
+#title-slide .subtitle {
+    margin-bottom: 2.5rem;
+    font-size: 150%;
+}
+
+
+
+/* https://www.sydney.edu.au/etc.clientlibs/corporate-commons/clientlibs/foundation/resources/corporate-frontend/assets/img/USydLogoBlack.svg */
+/* https://www.sydney.edu.au/etc.clientlibs/corporate-commons/clientlibs/foundation/resources/corporate-frontend/assets/img/USydLogo.svg */
+.reveal .slide-background:first-child {
+    background-image: url("https://raw.githubusercontent.com/DATA2002/data/master/usydlogo-white.svg");
+    background-repeat: no-repeat;
+    background-position: 95% 95%;
+    background-size: 15%;
+    background-color: $brand-red;
+}
+
+
+.print-pdf .reveal .title {
+    background-image: url("https://raw.githubusercontent.com/DATA2002/data/master/USydLogo-black.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #222 !important;
+  }
+
+.print-pdf .reveal .title-slide {
+      background-color: #FFFFFF !important;
+    }
+
+.print-pdf {
+  section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+     color: #000000 !important;
+  }
+}
+
+
+.red-background {
+    background-color: $brand-red !important;
+    color: white !important;
+    font-size: 140%;
+}
+.print-pdf .reveal .red-background {
+      background-color: #FFFFFF !important;
+    }
+
+.clear-background {
+    color: white !important;
+    font-size: 140%;
+}
+.print-pdf .reveal .clear-background {
+      background-color: #FFFFFF !important;
+    }
